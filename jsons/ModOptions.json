@@ -1,39 +1,16 @@
 {
 	"isBaseRuleset": false,
-	"buildingsToRemove": [
-		"Utopia Project", // Cultural Victory is handled with Tourism now
-		"National Treasury" // Replaced by East India Company https://civilization.fandom.com/wiki/East_India_Company_(Civ5)
-	],
-	"nationsToRemove": [
-		"Jakarta",
-		"Lisbon",
-		"Marrakech",
-		"Warsaw",
-		"Dublin",
-		"Rio de Janeiro",
-		"Edinburgh",
-		"Helsinki"
-	],
-	"policiesToRemove": [
-		"Free Religion",
-		"Educated Elite",
-		"Trade Unions",
-		"Populism",
-		"Fascism",
-		"Planned Economy",
-		"Socialism",
-		"Communism",
-		"Constitution",
-		"Democracy",
-		"Free Speech"
-	],
 	"uniques": [
-		"Mod requires [Civ V - Gods & Kings]",
-		"Mod is incompatible with [Brave New World]",
-		"Mod is incompatible with [Brave New World Updated]",
-		"Cannot be used as permanent audiovisual mod",
-
-		// Suppress Warnings
-		"Suppress warning [(Tutorial) Civ V Brave New World's civilopediaText line 1: extraImage not found as either atlas texture or in ExtraImages folder]"
+		"[+1 Happiness] from all [Happiness] buildings",
+		"Receive [+33]% Gold from Barbarian encampments and pillaging Cities",
+		"[-33]% Gold cost of upgrading <for [All] units>",
+		"Enables conversion of city production to [Gold] <after discovering [Mining]>",
+		"Enables conversion of city production to [Science] <after discovering [Writing]>",
+		"Production to [Gold] conversion in cities changed by [+25]%",
+		"Production to [Science] conversion in cities changed by [+25]%",
+		"Cannot be used as permanent audiovisual mod"
+	],
+	"constants": [
+		"maxXPfromBarbarians": 100
 	]
 }
